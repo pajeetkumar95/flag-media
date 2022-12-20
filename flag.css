@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: darkgray;
+}
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-bottom: 10rem;
+}
+
+.wrapperhead{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.wrappercenter{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.wrappercenter h1 {
+    border-radius: 50%;
+    background-color: darkgray;
+    padding: 0 1rem;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border-bottom: 8px solid;
+    width: 100%;
+}
+
+.wrapperbottom{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.flagimage{
+    width: 40%;
+}
+
+.flagimage img{
+width: 100%;
+}
+
+.list{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.option{
+    display: flex;
+    width: 40%;
+    padding: 1rem;
+}
+
+.option h3{
+    background-color: darkgray;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.option p{
+    text-align: center;
+    background-color: darkgray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+@media all and (max-width: 860px){
+    .option{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    .option p{
+        padding-left: 5px;
+    }
+}
+
+@media all and (max-width:715px){
+    .flagimage{
+        width: 100%;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+
+    .list{
+        width: 100%
+    }
+    .option{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .wrapperbottom{
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+}
+
+@media all and (max-width:400px){
+    .option{
+        width: 60%;
+    }    
+}
+
+
+
